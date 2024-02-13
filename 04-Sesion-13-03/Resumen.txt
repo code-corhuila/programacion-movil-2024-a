@@ -1,0 +1,16 @@
+Herramientas emergentes - disruptivas.
+
+
+Visual Studio Code - Visual Studio
+
+Lenguajes con los cuales puedo crear aplicaciones nativas móviles.
+
+
+
+Save All FindById DeleteById Update(void Save => put)
+
+===============================0000
+Tipos (WEB - Móvil - Escritorio o Híbridas)
+
+Monolítica **
+Distribuida **
