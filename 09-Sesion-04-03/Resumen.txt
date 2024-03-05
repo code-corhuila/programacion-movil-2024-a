@@ -1,0 +1,19 @@
+5.0
+* Sistemas de información
+	Práctica: 3.0 {construcción prototipo a nivel de dashboard - client}
+	dashboard: Administración 
+	client: Consumir datos (CRUD=>factura)
+* red social
+* videojuego
+* informativa
+=========================
+móniliticas - 
+
+
+distribuidas{
+	front{192.168.12.12} * nunca realizar lógica del negocio - 
+	back{192.168.12.9}}
+(single page application  - multi page application)
+
+
+
