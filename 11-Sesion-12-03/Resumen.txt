@@ -1,0 +1,77 @@
+Java  LTS (8-11-17)=> Spring Boot 
+=================================
+Crear proyecto: https://start.spring.io/
+--------------
+Project: Maven
+Language: Java
+Spring Boot: 3.2.3
+Project Metadata
+----------------
+	Group: com.corhuila
+	Artifact: shopping-car
+	Name: shopping-car
+	Description: Carrito de compras para xyz
+	Package name: com.corhuila.shopping-car
+	Packaging: Jar
+	Java: 17
+-----------------
+mysql
+-----------------
+https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.3&packaging=jar&jvmVersion=17&groupId=com.corhuila&artifactId=shopping-car&name=shopping-car&description=Carrito%20de%20compras%20para%20xyz&packageName=com.corhuila.shopping-car&dependencies=web,data-jpa,devtools,mysql
+------------------
+mongoDB
+------------------
+https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.3&packaging=jar&jvmVersion=17&groupId=com.corhuila&artifactId=shopping-car&name=shopping-car&description=Carrito%20de%20compras%20para%20xyz&packageName=com.corhuila.shopping-car&dependencies=web,devtools,data-mongodb
+
+---------------------------------
+Dependencias
+---------------------------------
+Spring Web
+Spring Boot DevTools
+JPA (Únicamente para motores SQL)
+MySQL Driver - Spring Data MongoDB - MS SQL Server Driver- otro
+---------------------------------
+<dependency>
+  <groupId>org.springdoc</groupId>
+  <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+  <version>2.0.4</version>
+</dependency>
+----------------------------------
+agregar luego el path
+server.servlet.context-path=/nombre-proyecto
+=================================
+Nombre normal: Clase implementada
+A Class: Clase abstracta
+I Class: Interface
+=================================
+Entity: Representa la obstracción del mundo real 
+DTO: Objeto de transferencia de datos
+IRepository: Comunicación con la Base de datos
+IService: Define las tareas que debe realizar el servicio
+Service: Cumple el contrato de la IService, es decir, las tareas propuestas
+Controller: Establece la puerta de entrada al sistema, recibe peticiones
+Util: Componentes genericos del sistema
+
+Conceptual: ver adjunto de la clase
+---------------------------------
+[SQL]
+Entity => joincolumn
+DTO
+IRepository
+IService
+Service
+Controller
+Util}
+---------------------------------
+[Mongo]
+Collection => dbref
+DTO
+IRepository
+IService
+Service
+Controller
+Util
+
+
+
+
