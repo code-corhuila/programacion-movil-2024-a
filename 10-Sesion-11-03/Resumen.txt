@@ -1,0 +1,45 @@
+1. Back (API) - ssl
+
+Clientes: {nombre, apellido, edad ....}
+localhost:9000/api/v1/person
+post[person]
+put[person/id]
+get[person]
+get[person/id]
+delete[person/id]
+
+status verbos http[post, get, delete, put]
+[
+	100 - informativos
+	200 - ok
+	300 - redireccionamiento
+	400 - error de cliente
+	500 - error de server
+]
+
+formato json
+
+{
+	"nombre":{
+		"primer_nombre":"Carlos",
+		"segundo_nombre":"Eduardo",
+		"primer_apellido":"Perez"
+	},
+	"edad":20
+},
+{
+	"nombre":{
+		"primer_nombre":"Carlos",
+		"segundo_nombre":"Eduardo",
+		"primer_apellido":"Perez",
+		"segundo_apellido":"Gomez"
+	},
+	"edad":20,
+	"email":{
+		"personal":"carlos@hotmail.com",
+		"institucional":"carlos@corhuila.edu.co"
+	}
+}
+
+Base de datos: 
+https://www.mongodb.com/es/cloud/atlas/efficiency
