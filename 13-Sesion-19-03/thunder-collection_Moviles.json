@@ -1,0 +1,106 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Moviles",
+    "dateExported": "2024-03-19T12:49:38.073Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "2f7458da-a3c2-4a87-8cb2-a22e60dba707",
+            "name": "Cliente",
+            "containerId": "",
+            "created": "2024-03-19T12:13:38.810Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "79efa8db-9bab-42ef-8bcc-1d96127bfa3f",
+            "colId": "9bced9c5-b41b-4511-8d5d-9ca5e4c73f26",
+            "containerId": "2f7458da-a3c2-4a87-8cb2-a22e60dba707",
+            "name": "POST",
+            "url": "http://localhost:9000/api/cliente",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-19T12:13:47.409Z",
+            "modified": "2024-03-19T12:13:59.795Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Pedro\",\n  \"documento\":\"4632874\",\n  \"metodoPago\":\"Efectivo\",\n  \"direccion\":\"Calle 11\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "790ecfd9-c8bf-49c7-b994-0762dce10471",
+            "colId": "9bced9c5-b41b-4511-8d5d-9ca5e4c73f26",
+            "containerId": "2f7458da-a3c2-4a87-8cb2-a22e60dba707",
+            "name": "PUT",
+            "url": "http://localhost:9000/api/cliente/4",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-19T12:14:04.788Z",
+            "modified": "2024-03-19T12:22:45.743Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Maria\",\n  \"documento\":\"5435\",\n  \"metodoPago\":\"Tarjeta\",\n  \"direccion\":\"Calle 12\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "3f6b65c4-8b85-41a6-afc0-523a84857786",
+            "colId": "9bced9c5-b41b-4511-8d5d-9ca5e4c73f26",
+            "containerId": "2f7458da-a3c2-4a87-8cb2-a22e60dba707",
+            "name": "DELETE",
+            "url": "http://localhost:9000/api/cliente/1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-19T12:14:56.189Z",
+            "modified": "2024-03-19T12:16:14.151Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Maria\",\n  \"documento\":\"5435\",\n  \"metodoPago\":\"Tarjeta\",\n  \"direccion\":\"Calle 12\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "43e73310-ad55-4ff2-a27c-83cde75799bf",
+            "colId": "9bced9c5-b41b-4511-8d5d-9ca5e4c73f26",
+            "containerId": "2f7458da-a3c2-4a87-8cb2-a22e60dba707",
+            "name": "GET[ID]",
+            "url": "http://localhost:9000/api/cliente/4",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-19T12:15:17.755Z",
+            "modified": "2024-03-19T12:22:35.378Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "fa117ce7-3154-4a62-b0a8-6a93b2c3ecc7",
+            "colId": "9bced9c5-b41b-4511-8d5d-9ca5e4c73f26",
+            "containerId": "2f7458da-a3c2-4a87-8cb2-a22e60dba707",
+            "name": "GET",
+            "url": "http://localhost:9000/api/cliente",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-19T12:16:21.981Z",
+            "modified": "2024-03-19T12:22:15.156Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        }
+    ]
+}
