@@ -1,0 +1,5 @@
+Chavarro : 0
+Quintero: 0
+Nieto: 5
+Willian: 3
+Alvaro: 
