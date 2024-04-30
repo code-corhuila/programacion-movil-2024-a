@@ -29,9 +29,13 @@
           <ButtonComponent id="save" value="Guardar" fill="outline" color="success"/>
 
           <ButtonComponent id="update" value="Modificar" fill="outline" color="warning"/>
+
+          <ButtonComponent id="detele" value="Eliminar" expand="block" color="danger"/>
         </div>
         <div>
           <InputComponent type="password" id="personaId"  />
+
+          <InputComponent type="date" id="fecha"  />
         </div>
 
         <!-- <div>
