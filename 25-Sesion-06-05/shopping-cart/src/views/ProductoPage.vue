@@ -2,28 +2,24 @@
     <ion-page>
       <ion-header :translucent="true">
         <ion-toolbar>
-          <ion-title>Carrito de compra</ion-title>
+          <ion-title>Prodcuto</ion-title>
         </ion-toolbar>
       </ion-header>  
       <ion-content>       
         <div id="login-container">  
           <div id="login-form">
             <InputComponent id="id" name="id" type="hidden"/>
-            <InputComponent id="tipoDocumento" name="tipoDocumento" label="Tipo Documento: " />
-            <InputComponent type="number" id="Documento" name="Documento" label="Documento: " />
+            <InputComponent id="codigo" name="codigo" label="Código: " />
             <InputComponent id="nombre" name="nombre" label="Nombre: " />
-            <InputComponent id="direccion" name="direccion" label="Dirección: " />
-            <InputComponent id="metodoPago" name="metodoPago" label="Método Pago: " />            
+            <InputComponent id="marca" name="marca" label="Marca: " />
+            <InputComponent type="number" id="precio" name="precio" label="Precio: " />
+            <InputComponent type="number" id="stock" name="stock" label="Stock: " disabled="disabled" />
           </div>
-          <div>
-            <!-- icon -->
-            <IonIcon :icon="">sds</IonIcon>
-            <IonIcon :icon="arrowForward"></IonIcon>
-          </div>
+  
           <div> 
              <!--Traer el componente de los botones de la crud  -->
             <CrudButtonComponent />
-          </div>          
+          </div>         
         </div>
       </ion-content>
     </ion-page>
@@ -31,6 +27,7 @@
   
   <script setup lang="ts">
   import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+  import ButtonComponent from '@/components/ButtonComponent.vue';
   import InputComponent from '@/components/InputComponent.vue';
   import CrudButtonComponent from '@/components/CrudButtonComponent.vue';
   </script>

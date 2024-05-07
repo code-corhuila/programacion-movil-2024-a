@@ -4,6 +4,8 @@ import router from './router';
 
 import { IonicVue } from '@ionic/vue';
 import { IonIcon } from '@ionic/vue';
+import Swal from 'sweetalert2';
+
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/vue/css/core.css';
@@ -40,6 +42,9 @@ const app = createApp(App)
   .use(router)
   .component('IonIcon', IonIcon);
 
-router.isReady().then(() => {
+  // Agrega SweetAlert2 al ámbito global
+  app.config.globalProperties.$swal = Swal;
+
+  router.isReady().then(() => {
   app.mount('#app');
 });
