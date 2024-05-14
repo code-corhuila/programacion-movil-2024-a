@@ -1,0 +1,7 @@
+{
+  "name": "shopping-cart",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
