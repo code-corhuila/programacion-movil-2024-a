@@ -87,7 +87,8 @@ import axios from 'axios';
 
 
 // Rutas de la API
-const baseURL = 'http://localhost:9000/shopping-car/api/cliente';
+// const baseURL = 'http://localhost:9000/shopping-car/api/cliente';
+const baseURL = 'https://zctlpc09-9000.use.devtunnels.ms/shopping-car/api/cliente';
 const modalIsOpen = ref(false);
 const items = ref<Array<ItemType>>([]);
 const id = ref('');
